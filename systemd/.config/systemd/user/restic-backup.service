@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily backups with restic
+
+[Service]
+Type=simple
+ExecStart=/home/biscotty/.local/bin/restic-backup.sh
+
+[Install]
+WantedBy=default.target

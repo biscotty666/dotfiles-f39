@@ -1,0 +1,14 @@
+import = [
+    "~/.config/alacritty/themes/themes/falcon.toml"
+]
+
+[window]
+
+dimensions = { columns = 80, lines = 40 }
+decorations = "None"
+padding = { x = 5, y = 5 }
+
+[font]
+
+size = 12
+
