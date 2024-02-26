@@ -12,13 +12,15 @@ fi
 
 export PATH
 export RESTIC_PASSWORD_FILE=/home/biscotty/.config/restic/restpass
+export NIXPKGS_ALLOW_UNFREE=1
 
 alias cd='z'
-alias vi='nvim'
+alias vi='vim'
 alias lal='ls -al'
 alias la='ls -a'
 alias cat='bat'
 alias ananav='anaconda-navigator'
+alias nnn='/home/biscotty/.local/bin/nnn'
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
