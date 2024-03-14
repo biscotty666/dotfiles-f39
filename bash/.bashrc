@@ -13,6 +13,7 @@ fi
 export PATH
 export RESTIC_PASSWORD_FILE=/home/biscotty/.config/restic/restpass
 export NIXPKGS_ALLOW_UNFREE=1
+export EDITOR=/usr/bin/vim
 
 alias cd='z'
 alias vi='vim'
@@ -21,6 +22,9 @@ alias la='ls -a'
 alias cat='bat'
 alias ananav='anaconda-navigator'
 alias nnn='/home/biscotty/.local/bin/nnn'
+alias gdu="gdu -I '.*easydata.*'"
+alias ls='lsd'
+alias zel='zellij'
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
@@ -56,3 +60,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(zoxide init bash)"
+# eval "$(atuin init bash)"
