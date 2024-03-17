@@ -13,13 +13,6 @@ export EDITOR="/usr/bin/vim"
 export VISUAL="/usr/bin/vim"
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=$PATH:$HOME/.local/bin
-alias cat="bat"
-alias cd="z"
-alias lal="lsd -la"
-alias mll="lsd -l"
-alias mla="lsd -a"
-alias mls="lsd"
-alias vif='zellij edit -f'
 
 source "$HOME/.zsh_completions.zsh"
 
@@ -118,6 +111,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cat="bat"
+alias cd="z"
+alias lal="lsd -la"
+alias mll="lsd -l"
+alias mla="lsd -a"
+alias mls="lsd"
+alias vif='zellij edit -f'
+alias zel='zellij attach Base'
+alias vim='gvim -v'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -126,12 +128,12 @@ eval "$(zoxide init zsh)"
 
 # The following lines were added by compinstall
 
-zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
-zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
-zstyle :compinstall filename '/home/biscotty/.zshrc'
+# zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
+# zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+# zstyle :compinstall filename '/home/biscotty/.zshrc'
 
-autoload -Uz compinit
-compinit
+# autoload -Uz compinit
+# compinit
 # End of lines added by compinstall
 
 # >>> conda initialize >>>
